@@ -1,4 +1,5 @@
 Shortest Path Simulation:
+
 Overview:
 This project simulates finding the shortest path from a starting point to a destination in a city without a map using Dijkstra’s Algorithm. The goal is to navigate intersections efficiently considering traffic and time costs and generate the route directions as output.
 
