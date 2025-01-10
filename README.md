@@ -8,15 +8,14 @@ Project Structure: The project contains the following files:
 GraphNode Class: Represents intersections in the city, with attributes and methods to navigate and track distances, directions, and neighbors (north, south, east, west).
 
 Min-Priority Queue Class: A heap-based data structure for managing nodes with priorities, supporting operations like insertion, deletion, and rebalancing.
+
 HashMap Class: Implements a mapping of graph nodes to their heap indices, enabling quick lookup and priority management.
-Entry Class
 
-Stores key-value pairs (graph nodes and their heap indices) for the HashMap.
-Graph Search Algorithm
+Entry Class: Stores key-value pairs (graph nodes and their heap indices) for the HashMap.
 
-Implements Dijkstra’s Algorithm in FindMinPath.java to calculate the shortest path and write the route to answer.txt.
+Graph Search Algorithm: Implements Dijkstra’s Algorithm in FindMinPath.java to calculate the shortest path and write the route to answer.txt.
+
 Key Functionalities
-
 GraphNode Class
 
 Methods for neighbor navigation: hasNorth(), getNorth(), and similar for other directions.
