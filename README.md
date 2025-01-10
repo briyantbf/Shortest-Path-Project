@@ -15,30 +15,23 @@ Entry Class: Stores key-value pairs (graph nodes and their heap indices) for the
 
 Graph Search Algorithm: Implements Dijkstra’s Algorithm in FindMinPath.java to calculate the shortest path and write the route to answer.txt.
 
-Key Functionalities
-GraphNode Class
+Key Functionalities:
 
-Methods for neighbor navigation: hasNorth(), getNorth(), and similar for other directions.
-Unique identification using UUIDs for hashing and indexing.
-Min-Priority Queue
+GraphNode Class: Methods for neighbor navigation: hasNorth(), getNorth(), and similar for other directions. Unique identification using UUIDs for hashing and indexing.
 
+Min-Priority Queue Class: Efficient priority handling for Dijkstra’s Algorithm.
 Operations:
 insert(GraphNode g)
 pullHighestPriorityElement()
 rebalance(GraphNode g)
 isEmpty()
-Efficient priority handling for Dijkstra’s Algorithm.
-HashMap
 
+HashMap: Custom hash function for UUIDs and collision resolution using closed hashing.
 Operations:
 set(GraphNode key, int value)
 getValue(GraphNode g)
 hasKey(GraphNode g)
-Custom hash function for UUIDs and collision resolution using closed hashing.
-FindMinPath.java
 
-Implements Dijkstra’s Algorithm with steps to prioritize nodes, update priorities, and trace the shortest path.
-Testing and Debugging
+FindMinPath.java: Implements Dijkstra’s Algorithm with steps to prioritize nodes, update priorities, and trace the shortest path.
 
-Debugging tools allow testing with provided sample files (test_ids.txt and test_edge_weights.txt).
-Testing includes creating HashMap, heap, and Min-Priority Queue, followed by algorithm validation.
+Testing and Debugging: Debugging tools allow testing with provided sample files (test_ids.txt and test_edge_weights.txt). Testing includes creating HashMap, heap, and Min-Priority Queue, followed by algorithm validation.
